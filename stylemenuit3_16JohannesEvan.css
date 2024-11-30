@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: "Lucida Console";
+}
+
+.copyright {
+	font-size:10px;
+}
+
+/*header*/
+.header {
+	color: #944041;
+	background-color: #cfb59d;
+	padding: 25px;
+	text-align: center;
+}
+/*navbar*/
+.navbar {
+	overflow: hidden;
+	background-color: #734c27;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	padding: 14px 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: inherit;
+	font-family: inherit;
+	color: white;
+	margin: 0;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:white;
+	min-width: 160px;
+	box-shadow: 2px 2px 5px black;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: inherit;
+	color:white;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.navbar a:hover, .dropdown:hover, .dropbtn:hover {
+	background-color: #4a3018;
+}
+/*column*/
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.column.side{
+	width: 20%;
+	color: #c7b2a9;
+	background-color: #804c36;
+}
+
+.column.middle{
+	width: 80%;
+	color: #944041;
+	background-color: #cfb59d;
+}
+
+.column.side.home{
+	padding: 10px 10px 100px 20px;
+}
+
+.column.middle.home{
+	padding: 10px 20px 67.5px 20px;
+}
+
+.column.side.daftar{
+	padding: 10px 10px 645px 20px;
+}
+
+.column.side.makanprancis{
+	padding: 10px 10px 1347px 20px;
+}
+
+.column.side.makanspanyol{
+	padding: 10px 10px 1349px 20px;
+}
+
+.column.side.makanitalia{
+	padding: 10px 10px 1328px 20px;
+}
+
+.column.side.tempatprancis{
+	padding: 10px 10px 896px 20px;
+}
+
+.column.side.tempatspanyol{
+	padding: 10px 10px 604.5px 20px;
+}
+
+.column.side.tempatitalia{
+	padding: 10px 10px 1225px 20px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*footer*/
+.footer {
+	background-color: #734c27;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+img.ff {
+	width: 210px;
+	height: 280px;
+}
+
+img.ts{
+  border-radius: 5%;
+}
+
+a.link {
+	float: none;
+	color: #c7b2a9;
+	text-decoration: none;
+}
+
+a:hover.link {
+	color:white;
+}
+
+/*class*/
+
